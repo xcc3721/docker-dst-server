@@ -64,3 +64,8 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/macos,windows,visualstudiocode
+data/DoNotStarveTogether/Cluster_1/Caves/save
+data/DoNotStarveTogether/Cluster_1/Master/save
+data/DoNotStarveTogether/Cluster_1/Master/backup
+server_chat_log.txt
+server_log.txt
