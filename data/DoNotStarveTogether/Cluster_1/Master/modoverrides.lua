@@ -1,6 +1,35 @@
 return {
-  ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
-  ["workshop-1998081438"]={ configuration_options={ StackMode=true, StackRadius=10 }, enabled=true },
+  ["workshop-1185229307"]={
+    configuration_options={
+      [""]="",
+      DAMAGE_NUMBERS=true,
+      DAMAGE_RESISTANCE=true,
+      FRAME_PHASES=true,
+      HORIZONTAL_OFFSET=0,
+      NOEPIC=true,
+      NONOEPIC=false,
+      WETNESS_METER=false 
+    },
+    enabled=true 
+  },
+  ["workshop-1898292532"]={
+    configuration_options={
+      antlion=true,
+      atrium_gate=false,
+      bearger=true,
+      beequeenhive=false,
+      crabking=false,
+      deerclops=true,
+      dragonfly=true,
+      hound=true,
+      klaus_sack=true,
+      malbatross=false,
+      tips_method=1,
+      toadstool=false 
+    },
+    enabled=true 
+  },
+  ["workshop-1998081438"]={ configuration_options={ StackMode=true, StackRadius=20 }, enabled=true },
   ["workshop-2287303119"]={
     configuration_options={
       [""]=0,
@@ -10,8 +39,8 @@ return {
       chestR=-1,
       display_hp=1,
       food_estimation=-1,
-      food_order=0,
-      food_style=0,
+      food_order=1,
+      food_style=1,
       item_info_mod=0,
       lang="Auto",
       show_buddle_item=1,
